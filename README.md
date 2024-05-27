@@ -6,7 +6,7 @@
 
 **PANDA** is an open-source *Pediatric Algorithm for Neuromonitoring and Dynamic Autoregulation* written in MATLAB (version 9.13) using the Statistics and Machine Learning Toolbox. Developed at the Erasmus MC Sophia Children's Hospital pediatric intensive care unit (PICU) in collaboration with Delft University of Technology. May 2024.
 
-The main functions of PANDA are
+The main functions of PANDA are:
 * Calculation of the pressure-reactivity index (PRx) from ICP and MAP data
 * Calculation of the optimal CPP (CPPopt) and optimal range
 * Calculation of ICP insults and color-coded visualization of correlation with outcome
