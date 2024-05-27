@@ -7,9 +7,9 @@
 **PANDA** is an open-source *Pediatric Algorithm for Neuromonitoring and Dynamic Autoregulation* written in MATLAB (version 9.13) using the Statistics and Machine Learning Toolbox. Developed at the Erasmus MC Sophia Children's Hospital pediatric intensive care unit (PICU) in collaboration with Delft University of Technology. May 2024.
 
 The main functions of PANDA are
-1. Calculation of the pressure-reactivity index (PRx) from ICP and MAP data
-2. Calculation of the optimal CPP (CPPopt) and optimal range
-3. Calculation of ICP insults and color-coded visualization of correlation with outcome
+* Calculation of the pressure-reactivity index (PRx) from ICP and MAP data
+* Calculation of the optimal CPP (CPPopt) and optimal range
+* Calculation of ICP insults and color-coded visualization of correlation with outcome
 
 PANDA is designed for users who want to perform neuromonitoring in pediatric traumatic brain injury with regard to cerebral autoregulation and obtain optimal targets for PRx, CPP and ICP that were shown to be associated with outcome at one year post-injury. The target values can be integrated into a comprehensive neuromonitoring dashboard.
 
