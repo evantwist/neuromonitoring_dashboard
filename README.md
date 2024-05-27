@@ -23,23 +23,24 @@ To use PANDA all you need is:
 
 **I have ICP and MAP time series, how can I get started with using PANDA?**
 
-If you have synchronized time series of ICP and MAP you can use the Import Tool and/or automatically generate scripts from here, please refer to <https://nl.mathworks.com/help/matlab/import_export/import-data-interactively.html> or for .csv/.xlsx/.txt/.mat-files you can use readmatrix(filename.csv)/readtable(filename.xlsx)/load(filename.mat)/fscanf(filename).
+If you have synchronized time series of ICP and MAP you can use the Import Tool and/or automatically generate scripts from here, please refer to `Matlab Documentation <https://nl.mathworks.com/help/matlab/import_export/import-data-interactively.html>`_ or for .csv/.xlsx/.txt/.mat-files you can use readmatrix(filename.csv)/readtable(filename.xlsx)/load(filename.mat)/fscanf(filename).
 
 The next step is to clean the raw data of artefacts and applying filtering to remove noise from pulse and respiration. A simple preprocessing pipeline is shown below:
 
 
 .. code-block:: MATLAB
 
-  proc_signal = struct()
+  proc_signal = struct();
   % Read the file
-  raw = readtable('raw_ICP_signal.xlsx')
+  raw = readtable('raw_ICP_signal.xlsx');
   % Define physiological range for artefact detection
-  sudden_deflections = 0.25        % Percentage in or decrease from adjacent samples
-  range_ll = 30                    % mmHg
-  range_ul = 160                   % mmHg
+  sudden_deflections = 0.25;        % Percentage in or decrease from adjacent samples
+  range_ll = 30;                    % mmHg
+  range_ul = 160;                   % mmHg
   % Apply in loop
   for iii = 11:length(raw)
-    if raw(ii) <= raw_signal(ii-1)*(1+sudden_deflections) | raw(ii) <= raw_signal(ii-1)*(1-sudden_deflections) | raw(ii) > range_ul | raw(ii) < range_ll
+    if raw(ii) <= raw_signal(ii-1)*(1+sudden_deflections) || raw(ii) <= raw_signal(ii-1)*(1-sudden_deflections) || ...
+    raw(ii) > range_ul || raw(ii) < range_ll
       proc_signal.clean(ii) = NaN;
       proc_signal.clean(ii-10:ii+60) = NaN; 
     elseif length(proc_signal) > ii
