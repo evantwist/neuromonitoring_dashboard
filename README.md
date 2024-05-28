@@ -1,6 +1,4 @@
 
-.. -*- mode: rst -*-
-
 <p align="center">
   <img width="460" height="300" src="https://github.com/evantwist/neuromonitoring_dashboard/assets/169645691/92209640-884b-4c41-8666-d989584ea7c4">
 </p>
