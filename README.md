@@ -56,9 +56,9 @@ The next step is to clean the raw data of artefacts and applying filtering to re
 
 Afterwards you can dive in and attempt to:
 
-* `PRx calculation`: calculate PRx  from your filtered ICP and MAP data (func_PRx).
-* `CPPopt calculation`: use the acquired PRx alongside your ICP data to derive CPPopt target and optimal range (func_CPPopt).
-* `ICP insult analysis`: analyze ICP on an insult basis, based on its intensity and duration, and correlate the average number of ICP insults with outcome in a color coded plot (func_ICP).
+* PRx calculation: calculate PRx  from your filtered ICP and MAP data (func_PRx).
+* CPPopt calculation: use the acquired PRx alongside your ICP data to derive CPPopt target and optimal range (func_CPPopt).
+* ICP insult analysis: analyze ICP on an insult basis, based on its intensity and duration, and correlate the average number of ICP insults with outcome in a color coded plot (func_ICP).
 
 
 Development
