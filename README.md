@@ -65,7 +65,7 @@ Development
 ~~~~~~~~~~~
 PANDA was created in collaboration between the PICU of Erasmus MC Sophia Children's Hospital, Rotterdam, The Netherlands in collaboration with the TU Delft, Delft, The Netherlands. The initial project was created by Naomi Kathanarathan, Jan Willem Kuiper and Rogier de Jonge, pediatric-intensivists at the `Erasmus MC PICU <https://www.erasmusmc.nl/nl-nl/sophia/patientenzorg/specialismen/intensive-care-kinderen>`_ and `Alfred Schouten <https://www.tudelft.nl/staff/a.c.schouten/>`_, professor (Bio-)mechnical engineering at the TU Delft. The initial syntax was written by Bart Formsma and Tahisa Robles under supervision of Eris van Twist, and is maintained by `Eris van Twist <https://www.linkedin.com/in/eris-van-twist-423609183/>`_, a clinical technologist and researcher at Erasmus MC.
 
-Note that this algorithm is provided with NO WARRANTY OF ANY KIND. Findings have been validated using retrospective data of the Erasmus MC PICU and that the algorithm has not been validated for real-time clinical use.
+Note that this algorithm is provided with **NO WARRANTY OF ANY KIND**. Findings have been validated using retrospective data of the Erasmus MC PICU and that the algorithm has not been validated for real-time clinical use.
 
 Feel free to contact to make a contribution, open an issue or submit a pull request.
 
