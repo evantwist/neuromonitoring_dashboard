@@ -1,8 +1,10 @@
 
 .. -*- mode: rst -*-
 
-.. image:: https://github.com/evantwist/neuromonitoring_dashboard/assets/169645691/92209640-884b-4c41-8666-d989584ea7c4
-   :align: center
+<p align="center">
+  <img width="460" height="300" src="https://github.com/evantwist/neuromonitoring_dashboard/assets/169645691/92209640-884b-4c41-8666-d989584ea7c4">
+</p>
+
 
 **PANDA** is an open-source *PRx-based Algorithm for Neuromonitoring and Dynamic Autoregulation* written in MATLAB (version 9.13) using the Statistics and Machine Learning Toolbox. Developed at the Erasmus MC Sophia Children's Hospital pediatric intensive care unit (PICU) in collaboration with Delft University of Technology. May 2024.
 
